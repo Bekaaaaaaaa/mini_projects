@@ -56,3 +56,9 @@ def main():
     write_to_json(data)
     
 main()
+
+
+import json 
+import requests
+from bs4 import BeautifulSoup as BS
+

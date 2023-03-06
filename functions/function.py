@@ -112,7 +112,26 @@ name_of functions
 # get_type(5,'s')
 
 '5'
-def dictionary(a,b,c):
-    for element in a,b,c:
-        print(element)
-dictionary('first', 'second', 'third')
+# def dictionary(a,b,c):
+#     for element in a,b,c:
+#         print(element)
+# dictionary('first', 'second', 'third')
+
+'8'
+# def max_num(a, b):
+#     return max(a, b)
+# print(max_num(10, 12))
+
+'10'
+# def sum_digits(input()):
+#     return sum(input())
+
+# print(sum_digits(105))
+
+'11'
+def func11(a, b, c):
+    if c == 0:
+        print(a + b)
+    return pow(a, b, c)
+
+print(func11(1, 2, 0))
